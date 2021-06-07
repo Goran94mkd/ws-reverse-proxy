@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "football": "nodemon services/football",
+    "basketball": "nodemon services/basketball",
+    "proxy": "nodemon services/proxy",
+    "all": "npm-run-all --parallel football basketball proxy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

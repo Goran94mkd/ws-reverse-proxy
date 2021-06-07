@@ -1,0 +1,1 @@
+web: node ./services/proxy/index.js & node ./services/football/index.js & node ./services/basketball/index.js
